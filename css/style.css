@@ -1,0 +1,158 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+
+hr {
+    width: 100%;
+    opacity: 0.35;
+    margin: 0px;
+}
+.container {
+    text-align: center;
+    background: url(/img/glav.png) no-repeat;
+    height: 867px;
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    background: #fff;
+}
+
+.header-up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 13px;
+    padding-bottom: 9px;
+    margin-left: 404px;
+    margin-right: 404px;
+    font-size: 16px;
+} .header-button {
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #FFA019;    
+} .header-up a {
+   padding: 9px 30px;
+}
+
+.header-down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 13px;
+    padding-bottom: 9px;
+    margin-left: 404px;
+    margin-right: 404px;
+} .header-down-info {
+   display: flex;
+   justify-content: space-between;
+   font-size: 14px;
+} .header-down p{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0px;
+} .header-down a {
+    text-decoration: none;
+    color: #000;
+    margin-left: 20px;
+}
+
+.first-section {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    margin: 0px;
+} .first-section-all-elements {
+    margin-top: 281px;
+}.first-button {
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #fff;  
+} .first-section a {
+    font-size: 12px;
+    text-decoration: none;
+    padding: 9px 30px;
+} .first-zagolovok {
+    font-size: 56px;
+    font-weight: lighter;
+    margin-bottom: 14px;
+} .first-description {
+    font-size: 20px;
+    margin-bottom: 47px;
+} .first-description p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.second-section {
+    display: block;
+    margin-left: 404px;
+    margin-right: 404px;
+    margin-top: 250px;
+    font-size: 20px;
+    font-weight: lighter;
+} .preimeshestva-strelki {
+    display: flex;
+    justify-content: space-between;
+} .preimush {
+    font-size: 34px;
+    font-weight: lighter;
+    color: #000;
+    margin: 0px;
+} .cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 127px;
+} .second-card, .third-card, .fourth-card {
+    margin-left: 165px;
+} .first-card{
+    margin-left: 80px;
+} .fourth-card {
+    margin-right: 80px;
+} .text-card {
+    display: flex;
+    justify-content: space-around;
+} .text-card p {
+    margin-right: 134px;
+}
+
+.about-us {
+
+} .about-us p {
+    font-size: 34px;
+    font-weight: lighter;
+    text-align: justify;
+    margin-left: 404px;
+    margin-right: 404px;
+} .about-us-description1 p, .about-us-description2 p {
+    font-size: 20px;
+} .about-us-description1 p, .about-us-description2 p{
+    margin-bottom: 0px;
+}.about-us-description2 p:not(.all-tovars){
+    margin-top: 0px;
+}.one {
+    margin-top: 0px;
+    margin-bottom: 17px;
+} .all-tovars {
+    margin-top: 17px;
+}
+
+.subscribe {
+    background: #FFA019;
+
+} .subscribe p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff; 
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
