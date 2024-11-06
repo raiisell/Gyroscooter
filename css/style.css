@@ -1,0 +1,296 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+}
+
+hr {
+    width: 100%;
+    opacity: 0.35;
+    margin: 0px;
+}
+.container {
+    background: url(/img/glav.png) no-repeat;
+    height: 867px;
+    background-size: cover;
+}
+
+.margin-container {
+    margin-left: 404px;
+    margin-right: 404px;
+}
+
+header {
+    width: 100%;
+    background: #fff;
+}
+
+.header-up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 13px;
+    padding-bottom: 9px;
+    margin-left: 404px;
+    margin-right: 404px;
+    font-size: 16px;
+} .header-button {
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #FFA019;    
+} .header-up a {
+   padding: 9px 30px;
+}
+
+.header-down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 13px;
+    padding-bottom: 9px;
+    margin-left: 404px;
+    margin-right: 404px;
+} .header-down-info {
+   display: flex;
+   justify-content: space-between;
+   font-size: 14px;
+} .header-down p{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0px;
+} .header-down a {
+    text-decoration: none;
+    color: #000;
+    margin-left: 20px;
+}
+
+.first-section {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    margin: 0px;
+} .first-section-all-elements {
+    margin-top: 281px;
+}.first-button {
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #fff;  
+} .first-section a {
+    font-size: 12px;
+    text-decoration: none;
+    padding: 9px 30px;
+} .first-zagolovok {
+    font-size: 56px;
+    font-weight: lighter;
+    margin-bottom: 14px;
+} .first-description {
+    font-size: 20px;
+    margin-bottom: 47px;
+} .first-description p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.second-section {
+    display: block;
+    margin-left: 404px;
+    margin-right: 404px;
+    margin-top: 250px;
+    font-size: 20px;
+    font-weight: lighter;
+} .preimeshestva-strelki {
+    display: flex;
+    justify-content: space-between;
+} .preimush {
+    font-size: 34px;
+    font-weight: lighter;
+    color: #000;
+    margin: 0px;
+} .cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 127px;
+} .second-card, .third-card, .fourth-card {
+    margin-left: 165px;
+} .first-card{
+    margin-left: 80px;
+} .fourth-card {
+    margin-right: 80px;
+} .text-card {
+    display: flex;
+    justify-content: space-around;
+} .text-card p {
+    margin-right: 134px;
+}
+
+.about-us p {
+    font-size: 34px;
+    font-weight: lighter;
+    text-align: justify;
+    margin-left: 404px;
+    margin-right: 404px;
+} .about-us-description1 p, .about-us-description2 p {
+    font-size: 20px;
+    text-align: justify;
+} .about-us-description1 p, .about-us-description2 p{
+    margin-bottom: 0px;
+}.about-us-description2 p:not(.all-tovars){
+    margin-top: 0px;
+}.one {
+    margin-top: 0px;
+    margin-bottom: 17px;
+} .all-tovars {
+    margin-top: 17px;
+}
+
+.subscribe {
+    margin-top: 89px;
+    background: #FFA019;
+    margin-bottom: 94px;
+} .subscribe p{
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff; 
+} .buttons {
+    display: flex;
+    justify-content: space-between;
+}.subs {
+    padding: 0px;
+    margin: 0px;
+} .buttons-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 404px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+} .buttons-text p:not(.subscribe-button p, .text p) {
+    font-weight: lighter;
+} .buttons-text p:not(.text p) {
+    font-size: 14px;
+}.name, .email {
+    border: 1px solid #fff;
+    padding: 14px 189px 12px 13px;
+    margin-right: 26.5px;
+} .subscribe-button {
+    background-color: #fff;
+    color: black;
+    margin-left: 0px 0px 0px 21px;
+    max-width: 232px;
+    max-height: 44px;
+    padding: 15px 65px ;
+} .subscribe-button p {
+    color: #000;
+    padding: 0px;
+    margin: 0px;
+}
+
+.features {
+    margin-left: 404px;
+    margin-right: 404px;
+} .features p:not(.plus-minus p, .opis) {
+    font-size: 34px;
+    margin-bottom: 72px;
+} .features p {
+    font-weight: lighter;
+} .plus-minus {
+    display: flex;
+    justify-content: space-between;
+}.plus-minus p {
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+} .opis {
+    font-size: 20px;
+    padding-top: 31px;
+}
+
+.catalog {
+    background: #FBFBFB;
+    margin-top: 106px;
+    position: relative;
+    z-index: -2;
+} .had {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} .had p:not(.all p){
+    font-size: 34px;
+    font-weight: lighter;
+} .all {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+} .all p:not(.first-all) {
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 16px;
+} .first-all {
+    background: #FFA019;
+    color: #fff;
+    border-radius: 15px;
+    padding: 5px 7px;
+    margin-top: 32.5px;
+} 
+
+.katalog-main {
+    background: #FBFBFB;
+    position: relative;
+  
+}
+.sort {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    align-items: center;
+}.sort a:not(.vse){
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}.vse{
+    background-color: #FFA019;
+    border-radius: 25px;
+    padding: 3px 6px;
+    text-decoration: none;
+    color: white;
+}
+.cards{
+    padding-bottom: 25px;    
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 92px;
+}
+.card {
+    box-shadow: 0 0 20px 2px  rgba(0, 0, 0, 0.1);
+    width: 255px;
+}.card-img {
+    position: relative;
+}.sigvei-card {
+    z-index: 1; 
+    position: absolute;
+    top: 5px; 
+    left: 15px;
+    color: white;
+    font-size: 16px;
+}.card-img img {
+    position: absolute;
+    z-index: -1;
+}.card-info {
+    margin-left: 16px;
+    position: relative;
+    padding-top: 278px;
+    font-size: 16px;
+}.card-price {
+    margin-bottom: 0px;
+    padding-bottom: 19px;
+    margin-left: 16px;
+    font-size: 20px;
+    font-weight: bold;
+}
